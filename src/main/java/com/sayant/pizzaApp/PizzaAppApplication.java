@@ -48,7 +48,7 @@ public class PizzaAppApplication {
         	
         	pizzaRepository.save(pizza);
         	
-        	pizza = pizzaRepository.save(new Pizza("Supreme Pizza", "http://www.jackspizza.com/media/1039/cheese.jpg"));
+        	pizza = pizzaRepository.save(new Pizza("Supreme Pizza", "https://lh3.googleusercontent.com/-1Iil24qU-EM/VqnJ50T5vII/AAAAAAAFQzI/O2jXEMQXKt0/s800-Ic42/cheese-pizza-2.jpg"));
         	//Creating and adding the ingredients set
         	ingredients = new HashSet();
         	ingredients.add(new Ingredient("Tomato", 2));
@@ -62,7 +62,7 @@ public class PizzaAppApplication {
         	pizza.setComments(comments);
         	
         	pizzaRepository.save(pizza);
-        	pizza = pizzaRepository.save(new Pizza("Veggie Pizza", "http://www.medicalmedium.com/blog-photos/Veggie%20Pizza.jpg"));
+        	pizza = pizzaRepository.save(new Pizza("Veggie Pizza", "https://image.shutterstock.com/z/stock-photo-supreme-pizza-lifted-slice-84904912.jpg"));
         	//Creating and adding the ingredients set
         	ingredients = new HashSet();
         	ingredients.add(new Ingredient("Tomato", 2));
@@ -76,7 +76,7 @@ public class PizzaAppApplication {
         	pizza.setComments(comments);
         	
         	pizzaRepository.save(pizza);
-        	pizza = pizzaRepository.save(new Pizza("Meat Pizza", "http://www.foodchannel.com/media/uploads/galleries/_thumbs/masters_universe_meat_pizza_jpg_1280x800_q85.jpg"));
+        	pizza = pizzaRepository.save(new Pizza("Meat Pizza", "https://image.shutterstock.com/z/stock-photo-supreme-pizza-lifted-slice-84904912.jpg"));
         	//Creating and adding the ingredients set
         	ingredients = new HashSet();
         	ingredients.add(new Ingredient("Tomato", 2));
@@ -90,7 +90,7 @@ public class PizzaAppApplication {
         	pizza.setComments(comments);
         	
         	pizzaRepository.save(pizza);
-        	pizza = pizzaRepository.save(new Pizza("Pepperoni Pizza", "http://nardonebros.com/wp-content/uploads/2015/03/16wsup2.jpg"));
+        	pizza = pizzaRepository.save(new Pizza("Pepperoni Pizza", "https://image.shutterstock.com/z/stock-photo-supreme-pizza-lifted-slice-84904912.jpg"));
         	//Creating and adding the ingredients set
         	ingredients = new HashSet();
         	ingredients.add(new Ingredient("Tomato", 2));
